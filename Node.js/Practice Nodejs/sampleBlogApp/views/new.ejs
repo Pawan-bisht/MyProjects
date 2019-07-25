@@ -1,0 +1,19 @@
+<h4>this is the new post blog</h4>
+<%  include partials/header %>
+<form class="ui form" action="/blog" method="POST">
+<div class="field">
+    <label for="">Title</label>
+<input type="text" placeholder="title" name = 'blog[title]'>
+</div>
+<div class="field">
+<label for="">Image</label>
+<input type="text" placeholder="image URL" name="blog[image]">
+</div>
+<div class="field">
+<label for="">Body</label>
+<input type="text" placeholder="body" name="blog[body]">
+</div>
+<input type="submit" >
+<button class="ui button">Follow</button>
+</form>
+<% include partials/footer %>

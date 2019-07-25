@@ -1,0 +1,17 @@
+{
+  "name": "samplerequest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.17.0",
+    "locus": "^2.0.0",
+    "request": "^2.88.0"
+  }
+}

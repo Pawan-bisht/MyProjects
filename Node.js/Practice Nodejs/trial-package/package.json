@@ -1,0 +1,20 @@
+{
+  "name": "trial-package",
+  "version": "1.0.0",
+  "description": "kuch nhi",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "awdawda"
+  ],
+  "author": "pawan",
+  "license": "ISC",
+  "dependencies": {
+    "cat-me": "^1.0.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "faker": "^4.1.0"
+  }
+}

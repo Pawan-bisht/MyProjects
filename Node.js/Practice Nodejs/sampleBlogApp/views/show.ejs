@@ -1,0 +1,9 @@
+<h4>It is the show route!!!!</h4>
+<%= blog.title %>
+<img src="<%= blog.image%>" alt=""><br>
+<label for="">Content</label>
+<h5><%= blog.body%></h5>
+
+<form action="/blog/<%=blog._id%>?_method=DELETE" method="POST" >
+    <button>Delete</button>
+</form>

@@ -1,0 +1,7 @@
+{
+    "env":{
+       "MONGO_ATLAS_PASSWORD":"nodeapipassword" ,
+       "JWT_KEY":"This is my fucking password for my JSON web token"
+
+    }
+}

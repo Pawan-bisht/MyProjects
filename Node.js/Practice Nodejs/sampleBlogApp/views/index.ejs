@@ -1,0 +1,11 @@
+<% include partials/header %>
+<%  data.forEach(function(blog){%>
+    <h4><%=blog.title%></h4>
+    <img src="<%= blog.image%>" alt="">
+    <p><%= blog.body%></p>
+    <!-- <button class="ui primary button" onclick="window.location.href = 'blog/'<%= blog._id %>'/show'">
+        See More
+      </button> -->
+      <a href="/blog/<%=blog._id%>/show">Read More</a>
+<%})%>
+<%  include partials/footer  %>

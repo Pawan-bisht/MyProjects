@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <table class="table table-dark table-striped">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+        {{#each persons as |person|}}
+        <tr>
+            <td>{{person.NAME}}</td>
+            <td>{{person.AGE}}</td>
+            <td>{{person.ID}}</td>
+        </tr>
+        {{/each}}
+        {{!-- <tr>
+            <td>Pawan Bisht </td>
+            <td>25</td>
+            <td>New Delhi </td>
+        </tr> --}}
+        {{#if false}}
+        <tr>
+            <td>dwadadw</td>
+            <td>awdege</td>
+            <td>gtrnbvfdfv</td>
+        </tr>
+        {{/if}}
+    </table>
+</body>
+</html>
