@@ -13,7 +13,7 @@
   "author": "Pawan bisht",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "locus": "^2.0.0"
   }
 }
